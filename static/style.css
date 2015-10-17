@@ -55,25 +55,27 @@ body {
 #home .header-title {
 	position: absolute;
 	top: 270px;
-	left: 150px;
-	right: 150px;
+	left: 190px;
+	right: 190px;
 	color: #fff;
-	border: 3px solid #fff;
 	border-radius: 25px;
+    background: rgba(76, 76, 76, 0.3);
 }
 
 .header-title h1 {
-	font-size: 60px;
+	font-size: 70px;
 	font-family: "Carter One", sans-serif;
+	opacity: 1;
 }
 
 
 .header-address h4 {
 	font-size: 35px;
-	font-family: "Overlock", sans-serif;
+	font-family: "Overlock:900", sans-serif;
 	color: #fff;
-	margin: 0px;
-	padding-top: 375px;
+	margin: 20px;
+	/*margin: 0px;*/
+/*	padding-top: 375px;*/
 }
 
 h3 {
