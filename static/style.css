@@ -23,33 +23,37 @@ body {
 }
 
 #breakfast {
-	background-color: #D6B36B;
+	background: url(1.png) 50% 0 repeat fixed; 
 	min-height: 800px;
 	padding-bottom: 10px;
 }
 
 #burger {
-	background-color: #A85C1E;
+	background: url(2.png) 50% 0 repeat fixed; 
 	min-height: 1000px;
 	padding: 0px;
 }
 
 #ramen {
-	background-color: #BE4D69;
+	background: url(3.png) 50% 0 repeat fixed; 
 	min-height: 1000px;
 	padding: 0px;
 }
 
 #burrito {
-	background-color: #8A2725;
+	background: url(4.png) 50% 0 repeat fixed; 
 	min-height: 1000px;
 	padding: 0px;
 }
 
 #drinks {
-	background-color: #8B4317;
+	background: url(5.png) 50% 0 repeat fixed; 
 	min-height: 1000px;
 	padding: 0px;
+}
+
+footer {
+	background-color: #8B4317;
 }
 
 #home .header-title {

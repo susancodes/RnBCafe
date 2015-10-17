@@ -67,7 +67,7 @@
           <div class="header-title">
             <h1>R&B Cafe</h1>
             <div class="header-address">
-              <h4>633 Folsom St<br>San Francisco, CA 94107<br>(415) 359-6263</h4>
+              <h4>633 Folsom St<br>San Francisco, CA 94107<br>M-F 7:30am to 3:00pm<br>(415) 359-6263</h4>
             </div>
           </div> <!-- closing for header-title -->
       </section> <!-- closing for parallex section background -->
@@ -75,7 +75,9 @@
         
 
       <section id="breakfast" data-type="background" data-speed="10" class="pages">
+        <div> 
           <h3>Breakfast</h3>
+        </div>
       </section>
 
       <section id="burger" data-type="background" data-speed="10" class="pages">
@@ -92,7 +94,7 @@
 
       <section id="burrito" data-type="background" data-speed="10" class="pages">
         <div class="">
-          <h3>Burrito</h3>
+          <h3>Burritos</h3>
         </div> <!-- closing for row -->
       </section>
 
@@ -103,12 +105,25 @@
       </section>
 
     </div> <!-- closing for container-fluid -->
+    <footer>Copyright R&B Cafe San Francisco 2015
+    </footer>
     <script type="text/javascript">
 
-    $('#home').tab('show');
-    $('#projects').tab('show');
-    $('#hackbright').tab('show');
-    $('#contact').tab('show');
+$(document).ready(function(){
+    $('section[data-type="background"]').each(function(){
+        var $bgobj = $(this); // assigning the object
+    
+        $(window).scroll(function() {
+            var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+            
+            // Put together our final background position
+            var coords = '50% '+ yPos + 'px';
+
+            // Move the background
+            $bgobj.css({ backgroundPosition: coords });
+        }); 
+    });    
+});
 
     </script>
   </body>
