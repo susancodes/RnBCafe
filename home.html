@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- css and bootstrap -->
+    <link href='https://fonts.googleapis.com/css?family=Overlock:400,900|Carter+One|Exo:800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"
+          href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./static/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-68960269-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+  </head>
+
+  <body>
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">R&B Cafe</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="#breakfast">Breakfast Menu <span class="sr-only">(current)</span></a>
+              </li>
+              <li>
+                <a href="#burger">Burgers</a>
+              </li>
+              <li>
+                <a href="#ramen">Ramen</a>
+              </li>
+              <li>
+                <a href="#burrito">Burritos</a>
+              </li>                  
+              <li>
+                <a href="#drinks">Drinks</a>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+
+        </div> <!-- closing for container fluid nav bar -->
+      </nav>
+
+      <section id="home" data-type="background" data-speed="10" class="pages">
+          <div class="header-title">
+            <h1>R&B Cafe</h1>
+          </div> <!-- closing for header-title -->
+          <div class="header-address">
+            <h4>633 Folsom St<br>San Francisco, CA 94107<br>(415) 359-6263</h4>
+          </div>
+      </section> <!-- closing for parallex section background -->
+
+        
+
+      <section id="breakfast" data-type="background" data-speed="10" class="pages">
+          <h3>Breakfast</h3>
+      </section>
+
+      <section id="burger" data-type="background" data-speed="10" class="pages">
+        <div class="">
+          <h3>Burgers</h3>
+        </div> <!-- closing for row -->
+      </section>
+
+      <section id="ramen" data-type="background" data-speed="10" class="pages">
+        <div class="">
+          <h3>Ramen</h3>
+        </div> <!-- closing for row -->
+      </section>
+
+      <section id="burrito" data-type="background" data-speed="10" class="pages">
+        <div class="">
+          <h3>Burrito</h3>
+        </div> <!-- closing for row -->
+      </section>
+
+      <section id="drinks" data-type="background" data-speed="10" class="pages">
+        <div class="">
+          <h3>Drinks</h3>
+        </div> <!-- closing for row -->
+      </section>
+
+    </div> <!-- closing for container-fluid -->
+    <script type="text/javascript">
+
+    $('#home').tab('show');
+    $('#projects').tab('show');
+    $('#hackbright').tab('show');
+    $('#contact').tab('show');
+
+    </script>
+  </body>
+</html>

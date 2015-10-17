@@ -1,0 +1,84 @@
+body { 
+	padding-top: 50px; 
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+/*.navbar-default {
+	background-color: #BE4D69;
+	border-color: #fff;
+}
+*/
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	margin-left: 10px;
+}
+
+#home {
+	background: url(ramenburger.jpg) 50% 0 repeat fixed; 
+	min-height: 800px;
+	text-align: center;
+	padding: 0px;
+}
+
+#breakfast {
+	background-color: #D6B36B;
+	min-height: 800px;
+	padding-bottom: 10px;
+}
+
+#burger {
+	background-color: #A85C1E;
+	min-height: 1000px;
+	padding: 0px;
+}
+
+#ramen {
+	background-color: #BE4D69;
+	min-height: 1000px;
+	padding: 0px;
+}
+
+#burrito {
+	background-color: #8A2725;
+	min-height: 1000px;
+	padding: 0px;
+}
+
+#drinks {
+	background-color: #8B4317;
+	min-height: 1000px;
+	padding: 0px;
+}
+
+#home .header-title {
+	position: absolute;
+	top: 270px;
+	left: 150px;
+	right: 150px;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 25px;
+}
+
+.header-title h1 {
+	font-size: 60px;
+	font-family: "Carter One", sans-serif;
+}
+
+
+.header-address h4 {
+	font-size: 35px;
+	font-family: "Overlock", sans-serif;
+	color: #fff;
+	margin: 0px;
+	padding-top: 375px;
+}
+
+h3 {
+	font-family: "Exo", sans-serif;
+	font-size: 36px;
+	margin: 0px;
+	padding: 50px;
+}
